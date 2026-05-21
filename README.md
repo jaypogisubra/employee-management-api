@@ -126,7 +126,21 @@ employee-management-api/
 │       └── employee.routes.js
 ├── .env.example
 ├── .gitignore
+├── Employee Management API.postman_collection.json
 ├── app.js
 ├── database.sql
 └── package.json
 ```
+
+---
+
+## API Testing (Postman)
+
+A pre-configured Postman collection is included in the root of the project to help you test all API endpoints immediately:
+
+### How to Import:
+1. Open **Postman**.
+2. Click the **Import** button in the top-left corner.
+3. Drag and drop the `Employee Management API.postman_collection.json` file from the project root.
+4. Once imported, you will find the collection named **Employee Management API** with all 5 endpoints ready for execution.
+
