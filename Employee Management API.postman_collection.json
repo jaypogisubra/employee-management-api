@@ -9,7 +9,7 @@
   },
   "item": [
     {
-      "name": "Get Single Employee",
+      "name": "Create Employee",
       "request": {
         "method": "POST",
         "header": [],
