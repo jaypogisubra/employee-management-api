@@ -25,7 +25,6 @@ cd employee-management-api
 ### 2. Install dependencies
 ```bash
 npm install
-```
 
 ### 3. Create your .env file
 ```bash
@@ -60,8 +59,8 @@ Server runs on `http://localhost:3000`
 `POST /api/employees`
 ```json
 {
-  "name": "Jay Juson",
-  "email": "Jay@example.com",
+  "name": "Juan Dela Cruz",
+  "email": "juan@example.com",
   "department": "Engineering",
   "position": "Backend Developer",
   "salary": 50000
@@ -98,19 +97,18 @@ With pagination and search:
   "success": true,
   "data": {
     "id": 1,
-    "name": "Jay Juson",
-    "email": "Jay@example.com",
+    "name": "Juan Dela Cruz",
+    "email": "juan@example.com",
     "department": "Engineering",
     "position": "Backend Developer",
     "salary": 50000,
     "created_at": "2026-05-21T00:00:00.000Z"
   }
 }
-```
+
 
 ## Project Structure
 
-```
 employee-management-api/
 ├── src/
 │   ├── config/
@@ -126,21 +124,7 @@ employee-management-api/
 │       └── employee.routes.js
 ├── .env.example
 ├── .gitignore
-├── Employee Management API.postman_collection.json
 ├── app.js
 ├── database.sql
 └── package.json
 ```
-
----
-
-## API Testing (Postman)
-
-A pre-configured Postman collection is included in the root of the project to help you test all API endpoints immediately:
-
-### How to Import:
-1. Open **Postman**.
-2. Click the **Import** button in the top-left corner.
-3. Drag and drop the `Employee Management API.postman_collection.json` file from the project root.
-4. Once imported, you will find the collection named **Employee Management API** with all 5 endpoints ready for execution.
-
