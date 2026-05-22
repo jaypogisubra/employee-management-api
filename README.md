@@ -59,8 +59,8 @@ Server runs on `http://localhost:3000`
 `POST /api/employees`
 ```json
 {
-  "name": "Juan Dela Cruz",
-  "email": "juan@example.com",
+  "name": "Jay Juson",
+  "email": "Jay.com",
   "department": "Engineering",
   "position": "Backend Developer",
   "salary": 50000
@@ -97,8 +97,8 @@ With pagination and search:
   "success": true,
   "data": {
     "id": 1,
-    "name": "Juan Dela Cruz",
-    "email": "juan@example.com",
+    "name": "Jay Juson",
+    "email": "Jay.com",
     "department": "Engineering",
     "position": "Backend Developer",
     "salary": 50000,
